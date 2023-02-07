@@ -1,12 +1,22 @@
 // Components styles.
 
 header {
+    justify-content: space-between;
 
     .site-title {
         color: $white;
         font-family: $ibm-primary;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         font-weight: 300;
+    }
+
+    .mob-nav {
+        cursor: pointer;
+
+        .burger-menu {
+            color: $color-secondary;
+            margin-right: 1rem;
+        }
     }
 }
