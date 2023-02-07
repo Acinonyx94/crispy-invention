@@ -1,1 +1,12 @@
 // Components styles.
+
+header {
+
+    .site-title {
+        color: $white;
+        font-family: $ibm-primary;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}
