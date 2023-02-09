@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #00010f; }
+
+header {
+  justify-content: space-between; }
+  header .site-title {
+    color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 300; }
+  header .mob-nav {
+    cursor: pointer; }
+    header .mob-nav .burger-menu {
+      color: #FAFF00;
+      margin-right: 1rem; }
+
+.storefront {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/laptop-storefront.jpg);
+  width: 90%;
+  height: 30vh;
+  border-radius: 1rem;
+  background-size: cover;
+  margin: auto;
+  position: relative; }
+  .storefront .plus-button {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    bottom: 3px;
+    right: 3px; }
+
+header {
+  display: flex;
+  padding: 1rem .5rem; }
+
+.feature {
+  height: 20%;
+  width: auto; }
